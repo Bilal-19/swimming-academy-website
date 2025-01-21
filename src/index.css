@@ -102,6 +102,14 @@ button:hover {
   margin: 20px;
 }
 
+.program-card img {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
 .trainer-card img {
   height: 60px;
   width: 60px;

@@ -15,6 +15,7 @@ export default function Programs() {
 
                 <div class="row mt-3 mb-3 d-flex justify-content-around align-items-center">
                     <div class="col-md-5 program-card shadow">
+                    <img src="/kid.png" alt="" className="img-fluid"/>
                         <h4>Kids' Learn-to-Swim Program (Ages 4-10)</h4>
                         <p>
                             Our Kids' Learn-to-Swim program is designed to introduce young
@@ -40,6 +41,7 @@ export default function Programs() {
                     </div>
 
                     <div class="col-md-5 program-card shadow">
+                        <img src="/teenage.png" alt="" className="img-fluid"/>
                         <h4>Teenagers Training (Ages 11-17)</h4>
                         <p>
                             This program focuses on enhancing swimming techniques and building endurance while preparing teenagers for competitive swimming or simply improving their fitness.
@@ -62,6 +64,7 @@ export default function Programs() {
                     </div>
 
                     <div class="col-md-5 program-card shadow">
+                    <img src="/adult.png" alt="" className="img-fluid"/>
                         <h4>Adult Beginner Classes</h4>
                         <p>
                             It's never too late to learn how to swim! Our Adult Beginner Classes cater to individuals who are new to swimming or wish to improve their basic skills.
@@ -85,6 +88,7 @@ export default function Programs() {
                     </div>
 
                     <div class="col-md-5 program-card shadow">
+                    <img src="/adult.png" alt="" className="img-fluid"/>
                         <h4>Advanced Coaching for Competitive Swimmers</h4>
                         <p>
                             Designed for experienced swimmers, this program offers specialized coaching to refine techniques, improve speed, and build endurance for competitive swimming.
