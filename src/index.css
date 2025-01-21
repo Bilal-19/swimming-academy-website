@@ -124,12 +124,9 @@ button:hover {
 @media screen and (max-width: 768px) {
 
   .highlight-cards,
-  .trainer-card {
-    width: 400px;
+  .trainer-card, .program-card {
+    width: 90%;
     margin: 5px auto;
   }
 
-  .program-card{
-    width: 400px;
-  }
 }
