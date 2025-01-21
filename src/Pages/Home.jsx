@@ -23,7 +23,7 @@ export default function Home() {
 
                 <div className="row d-flex justify-content-between">
                     <div className="col-md-3 highlight-cards">
-                        <img src="/public/certified_trainers.png" className="img-fluid highlight-images" />
+                        <img src="/certified_trainers.png" className="img-fluid highlight-images" />
                         <h4>Certified Trainers</h4>
                         <p>
                             Our swimming academy is led by a team of certified trainers with extensive experience in swimming instruction and water safety.
@@ -31,7 +31,7 @@ export default function Home() {
                     </div>
 
                     <div className="col-md-3 highlight-cards">
-                        <img src="/public/facilities.png" className="img-fluid highlight-images" />
+                        <img src="/facilities.png" className="img-fluid highlight-images" />
                         <h4>State-of-the-Art Facilities</h4>
                         <p>
                             Our facilities are equipped with modern, well-maintained pools and advanced training tools to create a safe and enjoyable environment for swimmers of all levels.
@@ -39,7 +39,7 @@ export default function Home() {
                     </div>
 
                     <div className="col-md-3 highlight-cards">
-                        <img src="/public/customizedProgram.png" className="img-fluid highlight-images" />
+                        <img src="/customizedProgram.png" className="img-fluid highlight-images" />
                         <h4>Customized Programs for All Ages</h4>
                         <p>
                             We offer tailored swimming programs designed to meet the unique needs of individuals, from toddlers to adults, ensuring personalized attention and growth.
@@ -47,7 +47,7 @@ export default function Home() {
                     </div>
 
                     <div className="col-md-3 highlight-cards">
-                        <img src="/public/hygienic.png" className="img-fluid highlight-images" />
+                        <img src="/hygienic.png" className="img-fluid highlight-images" />
                         <h4>Hygienic Pool Maintenance</h4>
                         <p>
                             Our pools are maintained to the highest hygiene standards with regular cleaning and advanced filtration systems to provide a safe swimming experience.
@@ -55,7 +55,7 @@ export default function Home() {
                     </div>
 
                     <div className="col-md-3 highlight-cards">
-                        <img src="/public/flexibleTiming.png" className="img-fluid highlight-images" />
+                        <img src="/flexibleTiming.png" className="img-fluid highlight-images" />
                         <h4>Flexible Scheduling Options</h4>
                         <p>
                             We offer a variety of class timings, including early mornings, evenings, and weekends, to accommodate your busy schedule.
@@ -63,7 +63,7 @@ export default function Home() {
                     </div>
 
                     <div className="col-md-3 highlight-cards">
-                        <img src="/public/inclusiveEnv.png" className="img-fluid highlight-images" />
+                        <img src="/inclusiveEnv.png" className="img-fluid highlight-images" />
                         <h4>Inclusive Environment</h4>
                         <p>
 
