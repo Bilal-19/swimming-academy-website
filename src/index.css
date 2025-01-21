@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Utility Classes */
+
+.bg-light-grey {
+  background-color: #f8f9fa;
+}
+
+.bg-aqua-blue {
+  background-color: #00cfff;
+}
+
+.bg-deep-blue {
+  background-color: #003b73;
+}
+
+/* Text Color */
+.text-dark-grey {
+  color: #333333;
+}
+
+.text-coral {
+  color: #ff6f61;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", serif;
+}
+
+p,
+a,
+button {
+  font-family: "Roboto", serif;
+}
+
+button {
+  background-color: #003b73;
+  color: #ffffff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  align-items: center;
+}
+
+button:hover {
+  color: #003b73;
+  background-color: #ffffff;
+  border: 1px solid #003b73;
+}
+/* ------------------------------------------------------------------------------------------------- */
+
+#bg-home-img {
+  background-image: url("/public/LandingPage.jpg");
+  background-size: cover;
+  height: 250px;
+}
+
+.highlight-cards {
+  border-top: 3px solid #333333;
+  border-left: 3px solid #333333;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-radius: 6px;
+  padding: 6px 8px;
+  margin: 20px;
+}
+
+.highlight-images {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+  .highlight-cards {
+    width: 400px;
+    margin: 5px auto;
+  }
+}
