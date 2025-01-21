@@ -84,9 +84,27 @@ button:hover {
   margin-bottom: 10px;
 }
 
+.trainer-card{
+  border-top: 3px solid #333333;
+  border-left: 3px solid #333333;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-radius: 6px;
+}
+
+.trainer-card img{
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #333333;
+}
+
 /* Media Query */
 @media screen and (max-width: 768px) {
-  .highlight-cards {
+  .highlight-cards, .trainer-card {
     width: 400px;
     margin: 5px auto;
   }
