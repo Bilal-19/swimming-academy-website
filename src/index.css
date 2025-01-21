@@ -42,7 +42,9 @@ h6 {
 
 p,
 a,
-button {
+button,
+ul,
+li {
   font-family: "Roboto", serif;
 }
 
@@ -60,6 +62,7 @@ button:hover {
   background-color: #ffffff;
   border: 1px solid #003b73;
 }
+
 /* ------------------------------------------------------------------------------------------------- */
 
 #bg-home-img {
@@ -84,7 +87,7 @@ button:hover {
   margin-bottom: 10px;
 }
 
-.trainer-card{
+.trainer-card {
   border-top: 3px solid #333333;
   border-left: 3px solid #333333;
   border-right: 1px solid #333333;
@@ -92,7 +95,14 @@ button:hover {
   border-radius: 6px;
 }
 
-.trainer-card img{
+.program-card {
+  border: 1px solid #d3d2d2;
+  border-radius: 6px;
+  padding: 8px 6px;
+  margin: 20px;
+}
+
+.trainer-card img {
   height: 60px;
   width: 60px;
   object-fit: cover;
@@ -104,8 +114,14 @@ button:hover {
 
 /* Media Query */
 @media screen and (max-width: 768px) {
-  .highlight-cards, .trainer-card {
+
+  .highlight-cards,
+  .trainer-card {
     width: 400px;
     margin: 5px auto;
+  }
+
+  .program-card{
+    width: 400px;
   }
 }
