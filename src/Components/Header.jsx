@@ -1,40 +1,41 @@
 import React from "react"
+import {Link} from "react-router-dom";
 
 export default function Header() {
     return (
         <>
             <nav class="navbar navbar-expand-lg navbar-light bg-light-grey text-dark-grey">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <Link class="navbar-brand" to="/">
                         <img src="/public/CompanyLogo.png" className="img-fluid"/>
-                    </a>
+                    </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                                <Link class="nav-link active" aria-current="page" to="/about">About Us</Link>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Programs</a>
+                                <Link class="nav-link active" aria-current="page" to="/programs">Programs</Link>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                                <Link class="nav-link active" aria-current="page" to="/gallery">Gallery</Link>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Testimonials</a>
+                                <Link class="nav-link active" aria-current="page" to="/testimonials">Testimonials</Link>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">FAQs</a>
+                                <Link class="nav-link active" aria-current="page" to="/faqs">FAQs</Link>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                                <Link class="nav-link active" aria-current="page" to="/contact">Contact Us</Link>
                             </li>
                            
                         </ul>
