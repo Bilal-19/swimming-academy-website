@@ -5,7 +5,7 @@ export default function Footer() {
         <>
             <div className="container-fluid bg-deep-blue text-white">
                 <div className="row">
-                    <div className="col-md-3 d-flex flex-column mb-3 mt-3">
+                    <div className="col-md-4 d-flex flex-column mb-3 mt-3">
                         <a>Home</a>
                         <a>About</a>
                         <a>Programs</a>
@@ -15,10 +15,18 @@ export default function Footer() {
                         <a>Contact Us</a>
                     </div>
 
-                    <div className="col-md-3 d-flex flex-column mb-3 mt-3">
+                    <div className="col-md-4 d-flex flex-column mb-3 mt-3">
                         <a>0308-2491543</a>
                         <a>info@aquaventure.com</a>
                         <p>Karachi, Pakistan</p>
+                    </div>
+
+                    <div className="col-md-4 d-flex flex-column mb-3 mt-3">
+                        <h5>Subscribe Our Newsletter</h5>
+                        <form>
+                            <input type="email" class="form-control" required placeholder="Enter your email"/>
+                            <button className="btn btn-primary mt-2">Subscribe</button>
+                        </form>
                     </div>
                 </div>
 
