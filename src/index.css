@@ -127,7 +127,8 @@ button:hover {
   border-radius: 6px;
 }
 
-.carousel-control-prev, .carousel-control-next {
+.carousel-control-prev,
+.carousel-control-next {
   background-color: #003b73 !important;
   height: fit-content;
   width: fit-content;
@@ -136,12 +137,27 @@ button:hover {
   border-radius: 50%;
 }
 
-.carousel-control-prev:hover, .carousel-control-next:hover{
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
   background-color: #003b73;
 }
 
+.user-review-card {
+  border: 1px solid #d3d2d2;
+  border-radius: 6px;
+  margin: 25px;
+  padding: 8px 10px;
+}
+
+.user-review-card img {
+  height: 20px;
+  width: 20px;
+}
+
+
 /* Media Query */
 @media screen and (max-width: 768px) {
+
   .highlight-cards,
   .trainer-card,
   .program-card {
