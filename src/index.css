@@ -175,9 +175,12 @@ button:hover {
   .highlight-cards,
   .trainer-card,
   .program-card
-  .user-review-card
   .carousel-img {
     width: 90%;
     margin: 5px auto;
+  }
+
+  .user-review-card{
+    width: 100%;
   }
 }
