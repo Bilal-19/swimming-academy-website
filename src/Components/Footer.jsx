@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
@@ -6,19 +7,19 @@ export default function Footer() {
             <div className="container-fluid bg-deep-blue text-white">
                 <div className="row">
                     <div className="col-md-4 d-flex flex-column mb-3 mt-3">
-                        <a>Home</a>
-                        <a>About</a>
-                        <a>Programs</a>
-                        <a>Gallery</a>
-                        <a>Testimonials</a>
-                        <a>FAQs</a>
-                        <a>Contact Us</a>
+                        <Link className="text-white text-decoration-none" to="/">Home</Link>
+                        <Link className="text-white text-decoration-none" to="/about">About</Link>
+                        <Link className="text-white text-decoration-none" to="/programs">Programs</Link>
+                        <Link className="text-white text-decoration-none" to="/gallery">Gallery</Link>
+                        <Link className="text-white text-decoration-none" to="/testimonials">Testimonials</Link>
+                        <Link className="text-white text-decoration-none" to="/faqs">FAQs</Link>
+                        <Link className="text-white text-decoration-none" to="/contact">Contact Us</Link>
                     </div>
 
                     <div className="col-md-4 d-flex flex-column mb-3 mt-3">
-                        <a>0308-2491543</a>
-                        <a>info@aquaventure.com</a>
-                        <p>Karachi, Pakistan</p>
+                    <p className="mb-0"><i class="fa-solid fa-location-dot"></i> Aqua Ventures, Karachi</p>
+                        <p className="mb-0"><i class="fa-solid fa-envelope"></i> info@aquaventures.com</p>
+                        <p className="mb-0"><i class="fa-solid fa-phone"></i> 0342-7634247</p>
                     </div>
 
                     <div className="col-md-4 d-flex flex-column mb-3 mt-3">
