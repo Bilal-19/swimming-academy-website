@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Components/Header"
 import Footer from "../Components/Footer"
+import { GalleryImages } from "../Data/GalleryImages";
 
 export default function Gallery() {
     return (
@@ -11,49 +12,23 @@ export default function Gallery() {
             <div className="container-fluid">
                 <div className="row m-4">
                     <div className="col-md-11 mx-auto">
-                        <div id="carouselExample" class="carousel slide">
+                        <div id="carouselExample" className="carousel slide">
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="/IndoorSwimmingPool.jpg" class="d-block w-100 carousel-img" alt="Indoor Swimming Pool with Diving Boards" />
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Indoor Swimming Pool</h5>
-                                    </div>
+                                <div className="carousel-inner">
+                                    {GalleryImages.map((image, index) => (
+                                        <div key={image.id} className={`carousel-item ${index === 0 ? "active" : ""}`}>
+                                            <img
+                                                src={image.imgURL}
+                                                className="d-block w-100 carousel-img"
+                                                alt={image.imgCaption}
+                                            />
+                                            <div className="carousel-caption d-none d-md-block">
+                                                <h5>{image.imgCaption}</h5>
+                                            </div>
+                                        </div>
+                                    ))}
                                 </div>
 
-                                <div class="carousel-item">
-                                    <img src="/KidsLearningSwimming.jpg" class="d-block w-100 carousel-img" alt="Kids Learning to Swim in a Pool with a Trainer" />
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Kids Learning to Swim in a Pool with a Trainer</h5>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <img src="/StrokeTechniques.jpg" class="d-block w-100 carousel-img" alt="Swimming Coach Teaching Stroke Techniques" />
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Swimming Coach Teaching Stroke Techniques</h5>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <img src="/PracticingFreestyleSwimming.jpg" class="d-block w-100 carousel-img" alt="Group of Teenagers Practicing Freestyle Swimming" />
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Group of Teenagers Practicing Freestyle Swimming</h5>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <img src="/Lifeguard.jpg" class="d-block w-100 carousel-img" alt="Adult Beginners in a Swim Class with a Lifeguard" />
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Adult Beginners in a Swim Class with a Lifeguard</h5>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <img src="/CompetitiveSwimmers.jpg" class="d-block w-100 carousel-img" alt="Competitive Swimmers at the Starting Blocks" />
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Competitive Swimmers at the Starting Blocks</h5>
-                                    </div>
-                                </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
