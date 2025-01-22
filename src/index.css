@@ -161,9 +161,14 @@ button:hover {
   margin-bottom: 20px;
 }
 
-.fa-solid{
+.fa-solid {
   width: 20px;
   height: 20px;
+}
+
+.accordion-header {
+  background-color: transparent !important;
+  color: #d3d2d2;
 }
 /* Media Query */
 @media screen and (max-width: 768px) {
