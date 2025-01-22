@@ -120,13 +120,32 @@ button:hover {
   border: 1px solid #333333;
 }
 
+.carousel-img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  background-color: #003b73 !important;
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover{
+  background-color: #003b73;
+}
+
 /* Media Query */
 @media screen and (max-width: 768px) {
-
   .highlight-cards,
-  .trainer-card, .program-card {
+  .trainer-card,
+  .program-card {
     width: 90%;
     margin: 5px auto;
   }
-
 }
