@@ -4,7 +4,10 @@ import {Link} from "react-router-dom";
 export default function Header() {
     return (
         <>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light-grey text-dark-grey">
+            <div class="container-fluid">
+                <div class="row shadow">
+            
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light-grey text-dark-grey">
                 <div class="container-fluid">
                     <Link class="navbar-brand" to="/">
                         <img src="/CompanyLogo.png" className="img-fluid"/>
@@ -42,6 +45,9 @@ export default function Header() {
                     </div>
                 </div>
             </nav>
+            
+                </div>
+            </div>
         </>
     )
 }
