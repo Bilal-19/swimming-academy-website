@@ -154,10 +154,19 @@ button:hover {
   width: 20px;
 }
 
+.contact-card {
+  border: 1px solid #d3d2d2;
+  height: fit-content;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+.fa-solid{
+  width: 20px;
+  height: 20px;
+}
 /* Media Query */
 @media screen and (max-width: 768px) {
-
   .highlight-cards,
   .trainer-card,
   .program-card {

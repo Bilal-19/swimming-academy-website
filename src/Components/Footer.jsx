@@ -25,7 +25,7 @@ export default function Footer() {
                         <h5>Subscribe Our Newsletter</h5>
                         <form>
                             <input type="email" class="form-control" required placeholder="Enter your email"/>
-                            <button className="btn btn-primary mt-2">Subscribe</button>
+                            <button className="btn btn-primary mt-2"><i class="fa-solid fa-bell"></i> Subscribe</button>
                         </form>
                     </div>
                 </div>
