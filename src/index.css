@@ -174,13 +174,12 @@ button:hover {
 @media screen and (max-width: 768px) {
   .highlight-cards,
   .trainer-card,
-  .program-card
   .carousel-img {
     width: 90%;
     margin: 5px auto;
   }
 
-  .user-review-card{
+  .user-review-card, .program-card{
     width: 85%;
     margin: 10px auto;
   }
