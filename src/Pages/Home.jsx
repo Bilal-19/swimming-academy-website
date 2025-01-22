@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
+import { FeedbackData } from "../Data/FeedbackObject";
 
 export default function Home() {
     return (
@@ -71,13 +72,31 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="row mt-3 mb-3">
+                <div className="row mt-3">
                     <h3 className="text-center">Testimonials</h3>
+                </div>
+
+                <div class="row d-flex justify-content-between">
+                    {FeedbackData.slice(0,3).map((value, index) => {
+                        return (
+                            <>
+                                <div class="col-md-3 user-review-card shadow">
+                                    <p>
+                                        <img src="open.png" alt="" className="mx-2 img-fluid" />
+                                        {value.message}
+                                        <img src="close.png" alt="" className="mx-2 img-fluid close" />
+                                    </p>
+
+                                    <p>~ {value.reviewerName}</p>
+                                </div>
+                            </>
+                        )
+                    })}
                 </div>
             </div>
 
             {/* Footer */}
-            <Footer/>
+            <Footer />
         </>
     );
 }

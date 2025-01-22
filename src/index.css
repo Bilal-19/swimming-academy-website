@@ -66,7 +66,7 @@ button:hover {
 /* ------------------------------------------------------------------------------------------------- */
 
 #bg-home-img {
-  background-image: url("/public/LandingPage.jpg");
+  background-image: url("/LandingPage.jpg");
   background-size: cover;
   height: 250px;
 }
