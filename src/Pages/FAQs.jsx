@@ -17,7 +17,7 @@ export default function FAQ() {
                                     return (
                                         <>
                                             <div className="accordion-item mb-3">
-                                                <h2 className="accordion-header">
+                                                <h2 className="accordion-header custom-header">
                                                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${item.id}`} aria-expanded="true" aria-controls={`collapse${item.id}`}>
                                                         {item.question}
                                                     </button>

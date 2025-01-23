@@ -166,10 +166,11 @@ button:hover {
   height: 20px;
 }
 
-.accordion-header {
-  background-color: transparent !important;
-  color: #d3d2d2;
+.custom-header {
+  background-color: #003b73 !important;
+  color: #d3d2d2 !important;
 }
+
 /* Media Query */
 @media screen and (max-width: 768px) {
   .highlight-cards,
