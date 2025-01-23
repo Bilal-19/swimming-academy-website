@@ -10,6 +10,22 @@ export default function Gallery() {
 
             {/* Main Content */}
             <div className="container-fluid">
+
+            <div class="row mt-3 mb-3 text-center">
+                    <h3>Dive Into Our World</h3>
+                    <p>
+                    Experience the highlights of our swimming academy through pictures.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8 mx-auto text-center">
+                        <p className="mb-0">
+                            From our state-of-the-art facilities to our engaging training sessions and memorable events, our gallery captures the spirit of Aqua Venture Swimming Academy. Take a glimpse into the moments that make us proud – the smiles, the achievements, and the passion for swimming that brings us together.
+                        </p>
+                    </div>
+                </div>
+
                 <div className="row m-4">
                     <div className="col-md-11 mx-auto">
                         <div id="carouselExample" class="carousel slide">
