@@ -1,7 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import toastr from "toastr";
+import "toastr/build/toastr.min.css";
 
 export default function Footer() {
+
+    toastr.options = {
+        closeButton: true,
+        progressBar: true,
+        positionClass: "toast-top-right",
+        timeOut: "5000",
+    };
+
+
+    function submit(e){
+        e.preventDefault();
+        return toastr.success('Success',"Thankyou for subscribing our newsletter.")
+    }
+
     return (
         <>
             <div className="container-fluid bg-deep-blue text-white">
@@ -24,9 +40,9 @@ export default function Footer() {
 
                     <div className="col-md-4 d-flex flex-column mb-3 mt-3">
                         <h5>Subscribe Our Newsletter</h5>
-                        <form>
-                            <input type="email" class="form-control" required placeholder="Enter your email"/>
-                            <button className="btn btn-primary mt-2"><i class="fa-solid fa-bell"></i> Subscribe</button>
+                        <form onSubmit={submit} action="https://formsubmit.co/bilalmuhammadyousuf543@gmail.com" autoComplete="off" method="post">
+                            <input type="email" class="form-control" required name="email" placeholder="Enter your email"/>
+                            <button className="btn btn-primary mt-2" type="submit"><i class="fa-solid fa-bell"></i> Subscribe</button>
                         </form>
                     </div>
                 </div>
