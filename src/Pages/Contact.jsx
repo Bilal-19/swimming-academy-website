@@ -16,7 +16,7 @@ export default function Contact() {
 
     function submit(e){
         e.preventDefault();
-        return toastr.success('Success',"Thanks for sharing your query. Our team will contact you soon.")
+        return toastr.success("Thanks for sharing your query. Our team will contact you soon.",'Success',)
     }
 
     return (

@@ -15,7 +15,7 @@ export default function Footer() {
 
     function submit(e){
         e.preventDefault();
-        return toastr.success('Success',"Thankyou for subscribing our newsletter.")
+        return toastr.success("Thankyou for subscribing our newsletter.", "Success")
     }
 
     return (
