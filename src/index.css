@@ -48,16 +48,17 @@ li {
   font-family: "Roboto", serif;
 }
 
-button {
+.cta-btn, button {
   background-color: #003b73;
   color: #ffffff;
   padding: 10px 16px;
   border: none;
   border-radius: 6px;
   align-items: center;
+  text-decoration: none;
 }
 
-button:hover {
+.cta-btn:hover, button:hover {
   color: #003b73;
   background-color: #ffffff;
   border: 1px solid #003b73;

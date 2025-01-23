@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import { FeedbackData } from "../Data/FeedbackObject";
+import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
@@ -14,7 +15,7 @@ export default function Home() {
                 <div className="row" id="bg-home-img">
                     <div className="col-md-7 mx-auto text-center">
                         <h2 className="text-white mt-5">Dive into Excellence: Learn Swimming with Us!</h2>
-                        <button>Join Now</button>
+                        <Link to="/contact" className="cta-btn">Join Now</Link>
                     </div>
                 </div>
 
