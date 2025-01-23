@@ -1,8 +1,24 @@
 import React from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
+import toastr from "toastr";
+import "toastr/build/toastr.min.css";
 
 export default function Contact() {
+
+    toastr.options = {
+        closeButton: true,
+        progressBar: true,
+        positionClass: "toast-top-right",
+        timeOut: "5000",
+    };
+
+
+    function submit(e){
+        e.preventDefault();
+        return toastr.success('Success',"Thanks for sharing your query. Our team will contact you soon.")
+    }
+
     return (
         <>
             <Header />
@@ -23,12 +39,12 @@ export default function Contact() {
                         <p className="mb-0"><i class="fa-solid fa-phone"></i> 0342-7634247</p>
                     </div>
                     <div className="col-md-5 mt-5 mb-5">
-                        <form action="" autoComplete="off">
+                        <form onSubmit={submit} action="https://formsubmit.co/bilalmuhammadyousuf543@gmail.com" autoComplete="off" method="post">
                             <input type="text" name="name" className="form-control mb-3" placeholder="Enter your name" required/>
                             <input type="email" name="email" className="form-control mb-3" placeholder="Enter your email" required/>
-                            <input type="text" name="name" className="form-control mb-3" placeholder="Enter your phone number" required/>
+                            <input type="text" name="phoneNumber" className="form-control mb-3" placeholder="Enter your phone number" required/>
                             <textarea name="message" className="form-control mb-3" style={{resize:"none"}} placeholder="Enter your message" rows="4"></textarea>
-                            <button><i class="fa-solid fa-paper-plane"></i> Submit</button>
+                            <button type="submit"><i class="fa-solid fa-paper-plane"></i> Submit</button>
                         </form>
                     </div>
                 </div>
