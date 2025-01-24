@@ -48,7 +48,8 @@ li {
   font-family: "Roboto", serif;
 }
 
-.cta-btn, button {
+.cta-btn,
+button {
   background-color: #003b73;
   color: #ffffff;
   padding: 10px 16px;
@@ -58,7 +59,8 @@ li {
   text-decoration: none;
 }
 
-.cta-btn:hover, button:hover {
+.cta-btn:hover,
+button:hover {
   color: #003b73;
   background-color: #ffffff;
   border: 1px solid #003b73;
@@ -172,6 +174,47 @@ li {
   color: #d3d2d2 !important;
 }
 
+/* Animation */
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-300px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.slideFromLeft {
+  animation-name: slideFromLeft;
+  animation-timing-function: ease-in;
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.slideFromRight {
+  animation-name: slideFromRight;
+  animation-timing-function: ease-in;
+}
+
+.animation-2s {
+  animation-duration: 2s;
+}
+
+.animation-3s{
+  animation-duration: 3s;
+}
+
+.animation-4s{
+  animation-duration: 4s;
+}
+
 /* Media Query */
 @media screen and (max-width: 768px) {
   .highlight-cards,
@@ -181,7 +224,8 @@ li {
     margin: 5px auto;
   }
 
-  .user-review-card, .program-card{
+  .user-review-card,
+  .program-card {
     width: 85%;
     margin: 10px auto;
   }

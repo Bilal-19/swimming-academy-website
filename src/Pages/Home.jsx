@@ -97,14 +97,14 @@ export default function Home() {
 
                 <div class="row d-flex justify-content-around align-items-center mt-3 mb-3">
                     <div class="col-md-5">
-                    <h3>About Us</h3>
-                        <p>
+                        <h3 className="slideFromLeft animation-2s">About Us</h3>
+                        <p className="slideFromLeft animation-3s">
                             At Aqua Venture Swimming Academy, we believe swimming is more than just a skill—it's a way to boost confidence, improve fitness, and stay safe. Our expert trainers and state-of-the-art facilities are here to help swimmers of all ages achieve their goals.
                         </p>
-                        <Link to="/about" className="cta-btn">Learn More</Link>
+                        <Link to="/about" className="cta-btn ">Learn More</Link>
                     </div>
                     <div class="col-md-5">
-                        <img src="/public/teachSwimming.webp" alt="" className="img-fluid rounded" />
+                        <img src="/public/teachSwimming.webp" alt="" className="img-fluid rounded slideFromRight animation-2s" />
                     </div>
                 </div>
 
@@ -120,12 +120,12 @@ export default function Home() {
                             Build water confidence and essential skills for young swimmers.
                         </p>
                     </div>
-                    
+
                     <div class="col-md-3 rounded shadow border p-2">
                         <img src="/teenage.png" alt="" className="img-fluid d-block mx-auto" style={{ height: "40px" }} />
                         <h5>Teen Training</h5>
                         <p>
-                        Improve stamina and swimming techniques for ages 11–17.
+                            Improve stamina and swimming techniques for ages 11–17.
                         </p>
                     </div>
 
@@ -133,14 +133,14 @@ export default function Home() {
                         <img src="/adult.png" alt="" className="img-fluid d-block mx-auto" style={{ height: "40px" }} />
                         <h5>Adult Beginners</h5>
                         <p>
-                        It’s never too late to start swimming!
+                            It’s never too late to start swimming!
                         </p>
                     </div>
                 </div>
 
                 <div class="row mt-3 mb-3">
                     <div class="col-md-4 text-center mx-auto">
-                    <Link to="/programs" className="cta-btn">Explore All Our Programs →</Link>
+                        <Link to="/programs" className="cta-btn">Explore All Our Programs →</Link>
                     </div>
                 </div>
             </div>
