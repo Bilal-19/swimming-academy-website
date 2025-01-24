@@ -96,15 +96,15 @@ export default function Home() {
                 </div>
 
                 <div class="row d-flex justify-content-around align-items-center mt-3 mb-3">
-                    <div class="col-md-5">
+                    <div class="col-md-5 mb-4">
                         <h3 className="slideFromLeft animation-2s">About Us</h3>
                         <p className="slideFromLeft animation-3s">
                             At Aqua Venture Swimming Academy, we believe swimming is more than just a skill—it's a way to boost confidence, improve fitness, and stay safe. Our expert trainers and state-of-the-art facilities are here to help swimmers of all ages achieve their goals.
                         </p>
-                        <Link to="/about" className="cta-btn ">Learn More</Link>
+                        <Link to="/about" className="cta-btn">Learn More</Link>
                     </div>
                     <div class="col-md-5">
-                        <img src="/teachSwimming.webp" alt="" className="img-fluid rounded slideFromRight animation-2s" />
+                        <img src="/teachSwimming.webp" alt="" className="img-fluid rounded" />
                     </div>
                 </div>
 
