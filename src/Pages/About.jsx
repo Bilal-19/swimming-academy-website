@@ -11,11 +11,11 @@ export default function About() {
             <div class="container-fluid">
                 <div class="row d-flex justify-content-around align-items-center mt-3 mb-3">
                     <div class="col-md-5">
-                        <img src="/mission.jpg" alt="" className="img-fluid rounded" />
+                        <img src="/mission.jpg" alt="" className="img-fluid rounded slideFromLeft animation-2s" />
                     </div>
                     <div class="col-md-5">
-                        <h4>Our Mission</h4>
-                        <p>
+                        <h4 className="slideFromRight animation-2s">Our Mission</h4>
+                        <p className="slideFromRight animation-3s">
                             At Aqua Venture Academy, we are committed to empowering
                             individuals of all ages with the life-changing skill of swimming.
                             Our mission is to build confidence, promote fitness, and foster
@@ -30,8 +30,8 @@ export default function About() {
 
                 <div class="row d-flex justify-content-around align-items-center mt-3 mb-3">
                     <div class="col-md-5">
-                        <h4>Our Story</h4>
-                        <p>
+                        <h4 className="slideFromLeft animation-2s">Our Story</h4>
+                        <p className="slideFromLeft animation-3s">
                             Founded in 2024, Aqua Venture Swimming Academy started with a simple yet
                             powerful vision: to create a safe and supportive environment where
                             people can learn swimming at their own pace. What began as a
@@ -47,7 +47,7 @@ export default function About() {
                         </p>
                     </div>
                     <div class="col-md-5">
-                        <img src="/story.jpg" alt="" className="img-fluid rounded"/>
+                        <img src="/story.jpg" alt="" className="img-fluid rounded slideFromRight animation-2s"/>
                     </div>
                 </div>
 
