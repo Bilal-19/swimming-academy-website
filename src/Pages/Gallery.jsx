@@ -11,10 +11,10 @@ export default function Gallery() {
             {/* Main Content */}
             <div className="container-fluid">
 
-            <div class="row mt-3 mb-3 text-center">
+                <div class="row mt-3 mb-3 text-center">
                     <h3>Dive Into Our World</h3>
                     <p>
-                    Experience the highlights of our swimming academy through pictures.
+                        Experience the highlights of our swimming academy through pictures.
                     </p>
                 </div>
 

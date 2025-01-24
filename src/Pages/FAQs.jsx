@@ -9,6 +9,14 @@ export default function FAQ() {
             <Header />
 
             <div className="container-fluid mt-5 mb-5">
+                <div class="row mt-3 mb-3 text-center">
+                    <h3>Frequently Asked Questions</h3>
+                    <p>
+                        Find answers to the most common questions about our swimming academy.
+                    </p>
+                </div>
+
+
                 <div className="row">
                     <div className="col-md-10 mx-auto">
                         <div className="accordion" id="accordionExample">
