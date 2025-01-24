@@ -104,7 +104,7 @@ export default function Home() {
                         <Link to="/about" className="cta-btn ">Learn More</Link>
                     </div>
                     <div class="col-md-5">
-                        <img src="/public/teachSwimming.webp" alt="" className="img-fluid rounded slideFromRight animation-2s" />
+                        <img src="/teachSwimming.webp" alt="" className="img-fluid rounded slideFromRight animation-2s" />
                     </div>
                 </div>
 
@@ -113,7 +113,7 @@ export default function Home() {
                 </div>
 
                 <div class="row d-flex justify-content-around align-items-center mb-3 mt-3">
-                    <div class="col-md-3 rounded shadow border p-2">
+                    <div class="col-11 col-md-3 rounded shadow border p-2">
                         <img src="/kid.png" alt="" className="img-fluid d-block mx-auto" style={{ height: "40px" }} />
                         <h5>Kids' Learn-to-Swim Program</h5>
                         <p>
@@ -121,7 +121,7 @@ export default function Home() {
                         </p>
                     </div>
 
-                    <div class="col-md-3 rounded shadow border p-2">
+                    <div class="col-11 col-md-3 rounded shadow border p-2">
                         <img src="/teenage.png" alt="" className="img-fluid d-block mx-auto" style={{ height: "40px" }} />
                         <h5>Teen Training</h5>
                         <p>
@@ -129,7 +129,7 @@ export default function Home() {
                         </p>
                     </div>
 
-                    <div class="col-md-3 rounded shadow border p-2">
+                    <div class="col-11 col-md-3 rounded shadow border p-2">
                         <img src="/adult.png" alt="" className="img-fluid d-block mx-auto" style={{ height: "40px" }} />
                         <h5>Adult Beginners</h5>
                         <p>
