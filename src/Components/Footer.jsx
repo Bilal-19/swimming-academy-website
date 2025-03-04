@@ -48,7 +48,7 @@ export default function Footer() {
                 </div>
 
                 <div className="row text-center">
-                    <p>Designed & Developed by <a href="https://bilal-19.github.io/portfolio/" target="_blank" className="text-decoration-none text-white">Bilal Muhammad Yousuf</a> </p>
+                    <p>Designed & Developed by <a href="https://bilal-19.github.io/" target="_blank" className="text-decoration-none text-white">Bilal Muhammad Yousuf</a> </p>
                 </div>
             </div>
         </>

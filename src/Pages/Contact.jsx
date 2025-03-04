@@ -24,7 +24,7 @@ export default function Contact() {
             <Header />
 
             <div className="container-fluid">
-            <div class="row mt-3 mb-3 text-center">
+            <div class="row mt-5 mb-5 text-center">
                     <h3>Get in Touch with Us</h3>
                     <p>
                     We're here to answer your questions and help you start your swimming journey.

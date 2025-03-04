@@ -9,7 +9,7 @@ export default function About() {
 
             {/* Main Content */}
             <div class="container-fluid">
-                <div class="row d-flex justify-content-around align-items-center mt-3 mb-3">
+                <div class="row d-flex justify-content-around align-items-center mt-5 mb-5">
                     <div class="col-md-5">
                         <img src="/mission.jpg" alt="" className="img-fluid rounded slideFromLeft animation-2s" />
                     </div>
@@ -28,7 +28,7 @@ export default function About() {
                     </div>
                 </div>
 
-                <div class="row d-flex justify-content-around align-items-center mt-3 mb-3">
+                <div class="row d-flex justify-content-around align-items-center mt-5 mb-5">
                     <div class="col-md-5">
                         <h4 className="slideFromLeft animation-2s">Our Story</h4>
                         <p className="slideFromLeft animation-3s">
@@ -51,11 +51,11 @@ export default function About() {
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row mt-5">
                     <h3 className="text-center">Meet the Trainers</h3>
                 </div>
 
-                <div class="row mt-3 mb-3 d-flex justify-content-around align-items-center">
+                <div class="row mt-3 mb-5 d-flex justify-content-around align-items-center">
                     <div class="col-md-3 trainer-card">
                         <img src="/male.png" alt=""/>
                         <p className="mb-0 text-center">John Doe</p>

@@ -11,7 +11,7 @@ export default function Gallery() {
             {/* Main Content */}
             <div className="container-fluid">
 
-                <div class="row mt-3 mb-3 text-center">
+                <div class="row mt-5 mb-3 text-center">
                     <h3>Dive Into Our World</h3>
                     <p>
                         Experience the highlights of our swimming academy through pictures.
@@ -26,7 +26,7 @@ export default function Gallery() {
                     </div>
                 </div>
 
-                <div className="row m-4">
+                <div className="row m-4 mb-5">
                     <div className="col-md-11 mx-auto">
                         <div id="carouselExample" class="carousel slide">
                             <div className="carousel-inner">

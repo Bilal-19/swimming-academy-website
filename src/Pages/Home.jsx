@@ -19,11 +19,11 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="row mt-3 mb-3">
+                <div className="row mt-5 mb-3">
                     <h3 className="text-center">Why Choose <span className="text-dark-grey">Aqua Venture</span> Swimming Academy?</h3>
                 </div>
 
-                <div className="row d-flex justify-content-between">
+                <div className="row d-flex justify-content-between mt-5">
                     <div className="col-md-3 highlight-cards">
                         <img src="/certified_trainers.png" className="img-fluid highlight-images" />
                         <h4>Certified Trainers</h4>
@@ -73,7 +73,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="row mt-3">
+                <div className="row mt-5">
                     <h3 className="text-center">Testimonials</h3>
                 </div>
 
@@ -81,21 +81,16 @@ export default function Home() {
                     {FeedbackData.slice(0, 3).map((value, index) => {
                         return (
                             <>
-                                <div class="col-md-3 user-review-card shadow">
-                                    <p>
-                                        <img src="open.png" alt="" className="mx-2 img-fluid" />
-                                        {value.message}
-                                        <img src="close.png" alt="" className="mx-2 img-fluid close" />
-                                    </p>
-
-                                    <p>~ {value.reviewerName}</p>
+                                <div className="col-md-4 text-justify mt-2 mb-5">
+                                    <p className="fw-light">{value.message}</p>
+                                    <span>~ {value.reviewerName}</span>
                                 </div>
                             </>
                         )
                     })}
                 </div>
 
-                <div class="row d-flex justify-content-around align-items-center mt-3 mb-3">
+                <div class="row d-flex justify-content-around align-items-center mt-3 mb-3 mt-5">
                     <div class="col-md-5 mb-4">
                         <h3 className="slideFromLeft animation-2s">About Us</h3>
                         <p className="slideFromLeft animation-3s">
@@ -108,7 +103,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="row mt-3 mb-3">
+                <div className="row mt-5 mb-3">
                     <h3 className="text-center">Featured Programs</h3>
                 </div>
 
@@ -138,7 +133,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div class="row mt-3 mb-3">
+                <div class="row mt-5 mb-5">
                     <div class="col-md-4 text-center mx-auto">
                         <Link to="/programs" className="cta-btn">Explore All Our Programs →</Link>
                     </div>
